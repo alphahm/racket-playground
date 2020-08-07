@@ -1,4 +1,11 @@
 #lang racket
+
+#|
+  Let the computer between x y
+  Calling (guess) will default to 0 and 100
+  With (start x y), it is possible to specify lower and upper
+|#
+
 (define (start n m)
   (set! lower (min n m))
   (set! upper (max n m))
